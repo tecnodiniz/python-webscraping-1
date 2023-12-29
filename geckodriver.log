@@ -191,3 +191,95 @@ JavaScript warning: https://vlibras.gov.br/app/vlibras-plugin.js, line 81: unrea
 1665710594226	Marionette	INFO	Stopped listening on port 44491
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"
+update.go:85: cannot change mount namespace according to change mount (/var/lib/snapd/hostfs/usr/share/gimp/2.0/help /usr/share/gimp/2.0/help none bind,ro 0 0): cannot open directory "/var/lib": permission denied
+update.go:85: cannot change mount namespace according to change mount (/var/lib/snapd/hostfs/usr/share/xubuntu-docs /usr/share/xubuntu-docs none bind,ro 0 0): cannot open directory "/var/lib": permission denied
+1703876660767	geckodriver	INFO	Listening on 127.0.0.1:48119
+1703876661182	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/sna ... te" "--remote-debugging-port" "35553" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilejN5neE"
+Gtk-Message: 16:04:21.217: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+[10419, Main Thread] WARNING: GTK+ module /snap/firefox/3416/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.: 'glib warning', file /build/firefox/parts/firefox/build/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:10419): Gtk-WARNING **: 16:04:21.297: GTK+ module /snap/firefox/3416/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 16:04:21.297: Failed to load module "canberra-gtk-module"
+[10419, Main Thread] WARNING: GTK+ module /snap/firefox/3416/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.: 'glib warning', file /build/firefox/parts/firefox/build/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:10419): Gtk-WARNING **: 16:04:21.299: GTK+ module /snap/firefox/3416/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 16:04:21.299: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1703876662461	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1703876662631	Marionette	INFO	Listening on port 37059
+WebDriver BiDi listening on ws://127.0.0.1:35553
+Read port: 37059
+1703876662969	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 10419, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.118" (uid=1000 pid=10419 comm="/snap/firefox/3416/usr/lib/firefox/firefox --mario" label="snap.firefox.geckodriver (enforce)") interface="org.gnome.Mutter.IdleMonitor" member="GetIdletime" error name="(unset)" requested_reply="0" destination=":1.43" (uid=1000 pid=2037 comm="/usr/bin/gnome-shell " label="unconfined")
+: 'glib warning', file /build/firefox/parts/firefox/build/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:10419): WARNING **: 16:04:24.688: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.118" (uid=1000 pid=10419 comm="/snap/firefox/3416/usr/lib/firefox/firefox --mario" label="snap.firefox.geckodriver (enforce)") interface="org.gnome.Mutter.IdleMonitor" member="GetIdletime" error name="(unset)" requested_reply="0" destination=":1.43" (uid=1000 pid=2037 comm="/usr/bin/gnome-shell " label="unconfined")
+
+DevTools listening on ws://127.0.0.1:35553/devtools/browser/07c1bc99-006c-4dd4-af45-5183c9e299fb
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1703876692654	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.error: services.settings: 
+  main/search-config-v2 Signature failed  InvalidSignatureError: Invalid content signature (main/search-config-v2) using 'remote-settings.content-signature.mozilla.org-2024-02-08-20-06-04.chain'
+console.error: services.settings: 
+  main/search-config-v2 local data was corrupted
+console.warn: services.settings: main/search-config-v2 Signature verified failed. Retry from scratch
+1703876724739	geckodriver	INFO	Listening on 127.0.0.1:56541
+1703876725016	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/sna ... te" "--remote-debugging-port" "37729" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileqNYfyk"
+Gtk-Message: 16:05:25.053: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+[11158, Main Thread] WARNING: GTK+ module /snap/firefox/3416/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.: 'glib warning', file /build/firefox/parts/firefox/build/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:11158): Gtk-WARNING **: 16:05:25.123: GTK+ module /snap/firefox/3416/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 16:05:25.123: Failed to load module "canberra-gtk-module"
+[11158, Main Thread] WARNING: GTK+ module /snap/firefox/3416/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.: 'glib warning', file /build/firefox/parts/firefox/build/toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox:11158): Gtk-WARNING **: 16:05:25.125: GTK+ module /snap/firefox/3416/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 16:05:25.125: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1703876725902	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1703876726034	Marionette	INFO	Listening on port 44057
+WebDriver BiDi listening on ws://127.0.0.1:37729
+Read port: 44057
+1703876726295	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+[Parent 11158, Main Thread] WARNING: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.125" (uid=1000 pid=11158 comm="/snap/firefox/3416/usr/lib/firefox/firefox --mario" label="snap.firefox.geckodriver (enforce)") interface="org.gnome.Mutter.IdleMonitor" member="GetIdletime" error name="(unset)" requested_reply="0" destination=":1.43" (uid=1000 pid=2037 comm="/usr/bin/gnome-shell " label="unconfined")
+: 'glib warning', file /build/firefox/parts/firefox/build/toolkit/xre/nsSigHandlers.cpp:187
+
+** (firefox:11158): WARNING **: 16:05:28.256: Failed to call GetIdletime(): GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.125" (uid=1000 pid=11158 comm="/snap/firefox/3416/usr/lib/firefox/firefox --mario" label="snap.firefox.geckodriver (enforce)") interface="org.gnome.Mutter.IdleMonitor" member="GetIdletime" error name="(unset)" requested_reply="0" destination=":1.43" (uid=1000 pid=2037 comm="/usr/bin/gnome-shell " label="unconfined")
+
+DevTools listening on ws://127.0.0.1:37729/devtools/browser/17b752a9-6205-4c06-9335-b828902877ce
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-P7Y8CBXPB2&l=dataLayer&cx=c, line 125: Script terminated by timeout at:
+B@https://www.googletagmanager.com/gtag/js?id=G-P7Y8CBXPB2&l=dataLayer&cx=c:125:72
+nq@https://www.googletagmanager.com/gtag/js?id=G-P7Y8CBXPB2&l=dataLayer&cx=c:350:225
+mq.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-P7Y8CBXPB2&l=dataLayer&cx=c:354:263
+mq.prototype.push@https://www.googletagmanager.com/gtag/js?id=G-P7Y8CBXPB2&l=dataLayer&cx=c:352:207
+fq@https://www.googletagmanager.com/gtag/js?id=G-P7Y8CBXPB2&l=dataLayer&cx=c:349:789
+lG/<@https://www.googletagmanager.com/gtag/js?id=G-P7Y8CBXPB2&l=dataLayer&cx=c:510:178
+aa.Jk/<@https://www.googletagmanager.com/gtag/js?id=G-P7Y8CBXPB2&l=dataLayer&cx=c:461:126
+aa.Jk/c/<@https://www.googletagmanager.com/gtag/js?id=G-P7Y8CBXPB2&l=dataLayer&cx=c:460:420
+
+1703876732636	Marionette	INFO	Stopped listening on port 37059
+JavaScript error: resource://devtools/client/jsonview/Sniffer.sys.mjs, line 53: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+JavaScript error: , line 0: uncaught exception: Timeout (u)
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1703876756321	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.error: services.settings: 
+  main/search-config-v2 Signature failed  InvalidSignatureError: Invalid content signature (main/search-config-v2) using 'remote-settings.content-signature.mozilla.org-2024-02-08-20-06-04.chain'
+console.error: services.settings: 
+  main/search-config-v2 local data was corrupted
+console.warn: services.settings: main/search-config-v2 Signature verified failed. Retry from scratch
+1703876804790	Marionette	INFO	Stopped listening on port 44057
